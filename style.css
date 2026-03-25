@@ -1,0 +1,51 @@
+/* General styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Image Section */
+.header-image {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url('image/snake_img.png') no-repeat center center;
+    background-size: contain;
+    background-color: #2d5a1b;
+}
+
+/* Overlay for better readability */
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 2rem;
+    }
+    .header-subtitle {
+        font-size: 1rem;
+    }
+}

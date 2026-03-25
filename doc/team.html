@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team - Snake n' Shake</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .team-member {
+            width: 300px;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center top;
+            margin: 0 auto 10px;
+            display: block;
+        }
+        .team-member h4 {
+            margin: 10px 0 5px;
+            font-size: 1.2em;
+        }
+        .team-member p {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .team-member a {
+            display: inline-block;
+            margin-top: 5px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .team-member a:hover {
+            text-decoration: underline;
+        }
+        .placeholder-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #cce5cc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+            font-size: 2rem;
+            color: #4a7c59;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">ECE554-SP25 Capstone Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="weekly-reports.html">Weekly Reports</a></li>
+                    <li class="nav-item"><a class="nav-link" href="proposal.html">Proposal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="architecture-review.html">Architecture Review</a></li>
+                    <li class="nav-item"><a class="nav-link" href="microarchitecture-review.html">Microarchitecture Review</a></li>
+                    <li class="nav-item"><a class="nav-link" href="final-docs.html">Final Documents</a></li>
+                    <li class="nav-item"><a class="nav-link" href="demo.html">Demo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Team Section -->
+    <div class="container mt-4">
+        <h2 class="text-center">Meet Our Team</h2>
+        <div class="team-container">
+
+            <!-- Team Member 1 — TODO: Replace placeholder content -->
+            <div class="team-member">
+                <img src="../image/amer.jpeg" alt="Team Member">
+                <h4>Amer Salem</h4>
+                <p><strong>Role:</strong> Verilog/VLSI</p>
+                <p>Hi I'm Amer, From Milwaukee, Wisconsin. I am studying computer engineering and computer science with interest in low level programming and video game design. This project was a good opportunity to combine my studies and interests together. Some other hobbies of mine include basketball, cooking, and reading.</p>
+            </div>
+
+            <!-- Team Member 2 — TODO: Replace placeholder content -->
+            <div class="team-member">
+                <img src="../image/chanceimg.jpeg" alt="Team Member" style="object-position: center center;">
+                <h4>Chance Howarth</h4>
+                <p><strong>Role:</strong> Verilog/VLSI</p>
+                <p>Hi I'm Chance Howarth, from Milwaukee, Wisconsin. I am studying electrical and computer engineering with a passion for computer architecture and Verilog. This project was a great chance to apply those interests hands-on. Some other hobbies of mine include gaming and exploring new tech.</p>
+            </div>
+
+            <!-- Team Member 3 — TODO: Replace placeholder content -->
+            <div class="team-member">
+                <img src="../image/anirudh.jpeg" alt="Team Member" style="object-position: 15% top;">
+                <h4>Anirudh Kompella</h4>
+                <p><strong>Role:</strong> C++, HTML/CSS</p>
+                <p>I am Anirudh Kompella. I am from Singapore. I am a Computer Engineering and Computer Science major with an interest in AI. I enjoy outdoor activities like Tennis and running. I am interested in deepening my hardware skills through this project.</p>
+            </div>
+
+            <!-- Team Member 4 — TODO: Replace placeholder content -->
+            <div class="team-member">
+                <div class="placeholder-img">?</div>
+                <h4>Team Member Name</h4>
+                <p><strong>Role:</strong> Role / Position</p>
+                <p>Short bio or fun description goes here. Tell us something interesting about this person and their contribution to Snake n' Shake!</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
